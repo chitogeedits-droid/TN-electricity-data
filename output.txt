@@ -1,0 +1,554 @@
+--- TEXT ---
+:: Tamil Nadu Transmission Corporation Ltd ::
+(A Subsidiary of TNEB Ltd.)
+Grid Details (Instantaneous) Date : 23-Jun-26 Day : Tuesday
+Sl. Details Total Lighting Minimum Morning Cons-
+No. Capacity Peak Load Peak umption
+MW MW MW MW MU
+Date 22-6-2026 23-6-2026 23-6-2026 22-6-2026
+Time Hrs. 18:50 3:55 7:25
+Frequency HZ. 50.12 50.02 49.98
+1 TNPGCL/TNGECL
+a) Hydro 2325.9 125 134 285 5.876
+b) Thermal 5120.0 3500 3547 3410 86.340
+c) Gas 408.0 149 155 153 3.569
+2 Independent Power Plant
+(i) PPN 330.5 0 0 0 0.000
+(ii) TAQA 250.0 250 190 190 5.066
+(iii) SEPC 525.0 274 293 292 7.090
+3 Captive Power Plant(Intra state) 707 366 736
+(i) CPP (Purchase) - TNPDCL 188 217 207
+CPP (Wheeling) + Third Party -
+(ii) *223.02 0.00 519 149 529
+OA Consumers
+18.129
+4 Non-Conventional Energy Schemes 36 399 14
+(i) Co-Generation *676.90 36 132 14
+(ii) Bio mass *206.79 0 267 0
+4648 3319 4582 119.720
+(iii) Wind *9495.665 4618 3319 3085 70.020
+(iv) Solar *13815.46 30 0 1497 49.700
+5 CGS (capacity) - Share for TNPDCL
+(i) Ramagundam Stage 1&2 522.6
+(ii) Ramagundam Stage 3 130.8
+(iii) Talcher Stage 2 496.9
+(iv) Simhadri Stage 2 209.7
+(v) Kudgi Stage 1 361.2
+(vi) NTECL Vallur 1062.4
+(vii) ER Power 35
+(viii)Neyveli TS2 Stage 617.4
+6668 3898 3889 3970 90.372
+(ix) Neyveli TS1 Exp 205.4
+(x) Neyveli TS2 Exp 244.6
+(xi) New Neyveli 654.4
+(xii) NTPL 410
+(xiii)MAPS 330.5
+(xiv)Kaiga 1 to 4 221.6
+(xv) Kudankulam 1 & 2 1125
+(xvi)NTPC stations - TS 40.8
+6 LTOA 2830.0 2378 1930 2045 45.357
+MTOA + MTOA PSP (Kurnool
+7 2800.0 1235 1281 1605 27.070
+Geenko)
+8
+STOA & Exchange purchase 2230 -193 -309 -2.464
+9
+REMC (through ISTS) *1037.5 0 89 39 171 6.245
+URS Power - availed from CGS
+0 0 0 0.000
+10 Station
+11 DSM : OD(+) / UD (-) -181 -83 -152 -8.013
+Total 21257.40 19338 15266 16992 404.357
+12 (i) Load Shedding 0 0 0 0
+(ii) HT Relief & R&C 0 0 0 0
+All time High Consumption 471.456 MU on 29-4-2026
+Demand 21307 MW on 29-4-2026 16:30 50.09 Hz
+Note: * All these items and new projects are not included in total Installed capacity.
+# yesterday's solar generation(max): 7023 MW
+(min) : 0 MW
+
+--- TABLES ---
+[
+  [
+    [
+      "Sl.\nNo.",
+      null,
+      "Details",
+      "Total\nCapacity\nMW",
+      "Lighting\nPeak\nMW",
+      "Minimum\nLoad\nMW",
+      "Morning\nPeak\nMW",
+      "Cons-\numption\nMU"
+    ],
+    [
+      "",
+      null,
+      "Date",
+      "",
+      "22-6-2026",
+      "23-6-2026",
+      "23-6-2026",
+      "22-6-2026"
+    ],
+    [
+      "",
+      null,
+      "Time Hrs.",
+      "",
+      "18:50",
+      "3:55",
+      "7:25",
+      ""
+    ],
+    [
+      "",
+      null,
+      "Frequency HZ.",
+      "",
+      "50.12",
+      "50.02",
+      "49.98",
+      ""
+    ],
+    [
+      "1",
+      "a)",
+      "TNPGCL/TNGECL\nHydro",
+      "2325.9",
+      "125",
+      "134",
+      "285",
+      "5.876"
+    ],
+    [
+      null,
+      "b)",
+      "Thermal",
+      "5120.0",
+      "3500",
+      "3547",
+      "3410",
+      "86.340"
+    ],
+    [
+      null,
+      "c)",
+      "Gas",
+      "408.0",
+      "149",
+      "155",
+      "153",
+      "3.569"
+    ],
+    [
+      "2",
+      "",
+      "Independent Power Plant",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      null,
+      "(i)",
+      "PPN",
+      "330.5",
+      "0",
+      "0",
+      "0",
+      "0.000"
+    ],
+    [
+      null,
+      "(ii)",
+      "TAQA",
+      "250.0",
+      "250",
+      "190",
+      "190",
+      "5.066"
+    ],
+    [
+      null,
+      "(iii)",
+      "SEPC",
+      "525.0",
+      "274",
+      "293",
+      "292",
+      "7.090"
+    ],
+    [
+      "3",
+      "",
+      "Captive Power Plant(Intra state)",
+      "",
+      "707",
+      "366",
+      "736",
+      "18.129"
+    ],
+    [
+      null,
+      "(i)",
+      "CPP (Purchase) - TNPDCL",
+      "0.00",
+      "188\n519",
+      "217\n149",
+      "207\n529",
+      null
+    ],
+    [
+      null,
+      "(ii)",
+      "CPP (Wheeling) + Third Party -\n*223.02\nOA Consumers",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "4",
+      "",
+      "Non-Conventional Energy Schemes",
+      "",
+      "36",
+      "399",
+      "14",
+      null
+    ],
+    [
+      null,
+      "(i)",
+      "Co-Generation *676.90",
+      "",
+      "36",
+      "132",
+      "14",
+      null
+    ],
+    [
+      null,
+      "(ii)",
+      "Bio mass *206.79",
+      "",
+      "0",
+      "267",
+      "0",
+      null
+    ],
+    [
+      null,
+      "",
+      "",
+      "",
+      "4648",
+      "3319",
+      "4582",
+      "119.720"
+    ],
+    [
+      null,
+      "(iii)",
+      "Wind *9495.665",
+      "",
+      "4618",
+      "3319",
+      "3085",
+      "70.020"
+    ],
+    [
+      null,
+      "(iv)",
+      "Solar *13815.46",
+      "",
+      "30",
+      "0",
+      "1497",
+      "49.700"
+    ],
+    [
+      "5",
+      "",
+      "CGS (capacity) - Share for TNPDCL",
+      "6668",
+      "3898",
+      "3889",
+      "3970",
+      "90.372"
+    ],
+    [
+      null,
+      "(i)",
+      "Ramagundam Stage 1&2 522.6",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(ii)",
+      "Ramagundam Stage 3 130.8",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(iii)",
+      "Talcher Stage 2 496.9",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(iv)",
+      "Simhadri Stage 2 209.7",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(v)",
+      "Kudgi Stage 1 361.2",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(vi)",
+      "NTECL Vallur 1062.4",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(vii)",
+      "ER Power 35",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(viii)",
+      "Neyveli TS2 Stage 617.4",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(ix)",
+      "Neyveli TS1 Exp 205.4",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(x)",
+      "Neyveli TS2 Exp 244.6",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(xi)",
+      "New Neyveli 654.4",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(xii)",
+      "NTPL 410",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(xiii)",
+      "MAPS 330.5",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(xiv)",
+      "Kaiga 1 to 4 221.6",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(xv)",
+      "Kudankulam 1 & 2 1125",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "(xvi)",
+      "NTPC stations - TS 40.8",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "6",
+      null,
+      "LTOA",
+      "2830.0",
+      "2378",
+      "1930",
+      "2045",
+      "45.357"
+    ],
+    [
+      "7",
+      null,
+      "MTOA + MTOA PSP (Kurnool\nGeenko)",
+      "2800.0",
+      "1235",
+      "1281",
+      "1605",
+      "27.070"
+    ],
+    [
+      "8",
+      null,
+      "STOA & Exchange purchase",
+      "",
+      "2230",
+      "-193",
+      "-309",
+      "-2.464"
+    ],
+    [
+      "9",
+      null,
+      "REMC (through ISTS) *1037.5",
+      "0",
+      "89",
+      "39",
+      "171",
+      "6.245"
+    ],
+    [
+      "10",
+      null,
+      "URS Power - availed from CGS\nStation",
+      "",
+      "0",
+      "0",
+      "0",
+      "0.000"
+    ],
+    [
+      "11",
+      null,
+      "DSM : OD(+) / UD (-)",
+      "",
+      "-181",
+      "-83",
+      "-152",
+      "-8.013"
+    ],
+    [
+      "",
+      null,
+      "Total",
+      "21257.40",
+      "19338",
+      "15266",
+      "16992",
+      "404.357"
+    ],
+    [
+      "12 (i)",
+      null,
+      "Load Shedding",
+      "",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(ii)",
+      null,
+      "HT Relief & R&C",
+      "",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "All time High Consumption",
+      null,
+      null,
+      "471.456 MU on 29-4-2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Demand",
+      null,
+      null,
+      "21307 MW on 29-4-2026 16:30 50.09 Hz",
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+]
