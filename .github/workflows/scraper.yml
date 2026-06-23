@@ -25,19 +25,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install and Start Tor
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y tor
-          sudo systemctl start tor
-          # Wait a few seconds for Tor to establish circuits
-          sleep 10
-          # Verify Tor is running on port 9050
-          curl --socks5-hostname 127.0.0.1:9050 -s https://check.torproject.org/api/ip
-
       - name: Run Scraper
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          USE_TOR: 'true'
         run: |
           python scraper.py

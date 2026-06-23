@@ -34,15 +34,37 @@ def download_pdf():
         "Accept-Language": "en-US,en;q=0.9"
     }
     
-    proxies = None
-    if os.environ.get("USE_TOR") == "true":
-        print("Using Tor proxy...")
+    # Attempt to fetch Indian proxies to bypass geographical blocking
+    proxies_list = []
+    try:
+        print("Fetching free Indian proxy list...")
+        proxy_res = requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=IN&ssl=all&anonymity=all', timeout=10)
+        proxies_list = proxy_res.text.strip().split('\r\n')
+    except Exception as e:
+        print("Failed to fetch proxy list, will try direct connection.", e)
+
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    
+    for proxy_str in proxies_list[:30]:
+        if not proxy_str: continue
+        print(f"Trying proxy: {proxy_str}")
         proxies = {
-            'http': 'socks5h://127.0.0.1:9050',
-            'https': 'socks5h://127.0.0.1:9050'
+            'http': f"http://{proxy_str}",
+            'https': f"http://{proxy_str}"
         }
-        
-    response = requests.get(PDF_URL, headers=headers, proxies=proxies, timeout=90, verify=False)
+        try:
+            response = requests.get(PDF_URL, headers=headers, proxies=proxies, timeout=10, verify=False)
+            if response.status_code == 200 and response.content.startswith(b'%PDF'):
+                with open(LOCAL_PDF, "wb") as f:
+                    f.write(response.content)
+                print(f"Download complete using proxy {proxy_str}.")
+                return
+        except Exception:
+            continue
+            
+    print("All proxies failed. Trying direct connection...")
+    response = requests.get(PDF_URL, headers=headers, timeout=30, verify=False)
     response.raise_for_status()
     with open(LOCAL_PDF, "wb") as f:
         f.write(response.content)
