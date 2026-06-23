@@ -33,7 +33,16 @@ def download_pdf():
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9"
     }
-    response = requests.get(PDF_URL, headers=headers, timeout=30, verify=False)
+    
+    proxies = None
+    if os.environ.get("USE_TOR") == "true":
+        print("Using Tor proxy...")
+        proxies = {
+            'http': 'socks5h://127.0.0.1:9050',
+            'https': 'socks5h://127.0.0.1:9050'
+        }
+        
+    response = requests.get(PDF_URL, headers=headers, proxies=proxies, timeout=90, verify=False)
     response.raise_for_status()
     with open(LOCAL_PDF, "wb") as f:
         f.write(response.content)
